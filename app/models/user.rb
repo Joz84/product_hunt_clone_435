@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   def full_name
-    return "#{capitalize_first_name} #{self.last_name.capitalize}"
+    return "#{capitalize_first_name} #{self.last_name.capitalize} Coco"
   end
 
   private
