@@ -2,12 +2,12 @@
 <div class="container">
   <h1>Awesome Products</h1>
   <% @products.each do |product| %>
-    <div class="card-product">
+    <div class="product card-product">
       <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
       <div class="card-product-infos">
 
         <div class='product-body'>
-          <h3><%= product.title %></h3>
+          <h3><%= product.name %></h3>
           <p><%= product.tagline %></p>
         </div>
 
